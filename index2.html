@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renewal Construction</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <style>
+    .logo {
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .banner {
+      background-image: url("img/rasm.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .banner h1 {
+      color: white;
+      font-size: 48px;
+      text-shadow: 2px 2px 4px black;
+    }
+
+    .main h2 {
+      color: #333;
+      font-size: 36px;
+      margin-bottom: 20px;
+    }
+
+    .main p {
+      color: #666;
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 20px;
+    }
+
+    .main ul {
+      color: #666;
+      font-size: 18px;
+      list-style-type: square;
+      margin-left: 20px;
+    }
+
+    .main ul li {
+      margin-bottom: 10px;
+    }
+
+    .contact-form {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .contact-form button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+    }
+
+    .testimonial-section {
+      background-color: #333;
+      color: white;
+      padding: 40px;
+    }
+
+    .testimonial-section h3 {
+      font-size: 24px;
+      margin-bottom: 20px;
+    }
+
+    .testimonial-carousel {
+      display: flex;
+      align-items: center;
+    }
+
+    .testimonial-item {
+      width: 300px;
+      margin-right: 20px;
+    }
+
+    .testimonial-item p {
+      font-style: italic;
+    }
+
+    .testimonial-item span {
+      font-weight: bold;
+    }
+
+    .testimonial-arrow {
+      font-size: 36px;
+      cursor: pointer;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+    }
+
+    .footer p {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand logo" href="#">Renewal Construction</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a class="nav-link" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="banner">
+    <h1>We Fix Anything at your property!</h1>
+  </div>
+  <div class="container">
+    <div class="main">
+      <h2>Why Choose Us?</h2>
+      <p>We are a professional and reliable window repairs service company with over 10 years of experience. We offer a wide range of services for all types of windows, including:</p>
+      
+<ul><li>Broken glass replacement</li><li>Window frame repair</li><li>Window lock repair</li><li>Window screen repair</li><li>Window installation and upgrade</li><li>And more...</li></ul>
+
+      <p>We are committed to providing you with high-quality workmanship, affordable prices, and excellent customer service. We guarantee your satisfaction and we will not leave until you are happy with the result.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <h2>Contact Us</h2>
+        <p>Fill out the form below and we will get back to you as soon as possible.</p>
+        <form class="contact-form" action="#" method="post">
+          <input type="text" name="name" placeholder="Name" required>
+          <input type="email" name="email" placeholder="Email" required>
+          <input type="text" name="subject" placeholder="Subject" required>
+          <textarea name="message" placeholder="Message" rows="5" required></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h2>Testimonials</h2>
+        <p>See what our happy customers have to say about us.</p>
+        <div class="testimonial-section">
+          <h3>Our Customers Love Us</h3>
+          <div class="testimonial-carousel">
+            <span class="testimonial-arrow left"><</span>
+            <div class="testimonial-item">
+              <p>"They did a great job fixing my window. They were fast, friendly, and affordable. I highly recommend them."</p>
+              <span>- John Smith</span>
+            </div>
+            <div class="testimonial-item">
+              <p>"I was very impressed with their service. They replaced my window in no time and cleaned up after themselves. They are very professional and courteous."</p>
+              <span>- Jane Doe</span>
+            </div>
+            <div class="testimonial-item">
+              <p>"They are the best window repairs service in town. They have a lot of experience and know what they are doing. They are also very honest and fair with their prices."</p>
+              <span>- Mike Jones</span>
+            </div>
+            <span class="testimonial-arrow right">></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <p>© 2023 Property Repairing Service. All rights reserved.</p>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+  <!-- Bootstrap -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!-- Custom script -->
+  <script>
+
+    // Testimonial carousel
+    var currentIndex = 0;
+    var items = $(".testimonial-item");
+    var itemCount = items.length;
+    var leftArrow = $(".left");
+    var rightArrow = $(".right");
+
+    function showItem(index) {
+      items.hide();
+      items.eq(index).show();
+    }
+
+    function nextItem() {
+      currentIndex++;
+      if (currentIndex > itemCount - 1) {
+        currentIndex = 0;
+      }
+      showItem(currentIndex);
+    }
+
+    function prevItem() {
+      currentIndex--;
+      if (currentIndex < 0) {
+        currentIndex = itemCount - 1;
+      }
+      showItem(currentIndex);
+    }
+
+    showItem(currentIndex);
+
+    leftArrow.click(prevItem);
+    rightArrow.click(nextItem);
+
+    // Animation on scroll
+    $(window).scroll(function() {
+      var scrollTop = $(this).scrollTop();
+      var windowHeight = $(this).height();
+      var offset = windowHeight / 4;
+
+      $(".animate__animated").each(function() {
+        var elementTop = $(this).offset().top;
+        if (scrollTop + windowHeight - offset > elementTop) {
+          $(this).addClass("animate__fadeInUp");
+        }
+      });
+    });
+
+  </script>
+
+</body>
+</html>
+
